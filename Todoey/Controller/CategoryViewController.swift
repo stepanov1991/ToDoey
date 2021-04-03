@@ -51,6 +51,7 @@ class CategoryViewController: SwipeTableViewController {
             
         }
         alert.addAction(action)
+        alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: nil))
         present(alert, animated: true, completion: nil)
         
         //MARK: - Data Methods
